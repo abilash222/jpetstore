@@ -149,6 +149,16 @@
           <locales>en,es,ja,ko</locales>
         </configuration>
       </plugin>   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.0</version>
+        <configuration>
+          <source>1.5</source>
+	  <target>1.5</target>
+        </configuration>
+      </plugin> 
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
@@ -185,6 +195,7 @@
         </dependency>
        </dependencies>
     </plugin>
+
     </plugins>
   </build>
 
