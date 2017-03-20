@@ -16,7 +16,7 @@
 
    <groupId>org.mybatis</groupId>
   <version>6.0.42-SNAPSHOT</version>
-  <artifactId>jpetStore</artifactId>
+  <artifactId>jpetstore</artifactId>
   <packaging>war</packaging>
 
   <name>JPetStore Demo 6</name>
